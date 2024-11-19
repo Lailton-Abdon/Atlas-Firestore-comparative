@@ -11,7 +11,7 @@ def inicializar_firebase(cred_caminho: str):
     return firestore.client()
 
 db = inicializar_firebase(
-    "C:/Users/Lailton/Documents/TCC/Dev/firebase_cred/fir-teste-577c4-firebase-adminsdk-3pium-213839a22c.json")
+    " ")
 
 # Função para gerenciar a coleção
 def criar_collection(db, collection_name: str):
