@@ -1,6 +1,6 @@
 # Comparação: Firebase Firestore e MongoDB Atlas
 
-Este repositório contém um script desenvolvido para realizar uma comparação entre os bancos de dados Firebase Firestore e MongoDB Atlas. O objetivo é analisar e demonstrar as diferenças de performance, estrutura de dados, funcionalidades e facilidade.
+Este repositório contém os scripts desenvolvidos com o objetivo de realizar uma comparação entre os bancos de dados Firebase Firestore e MongoDB Atlas para um artigo de conclusão de curso de Ciência da Computação da UNIPÊ.
 
 🛠 Tecnologias
 
