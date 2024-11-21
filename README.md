@@ -1,35 +1,46 @@
-# Comparação: Firebase Firestore e MongoDB Atlas
+# atlas-firestore-comparative
 
-Este repositório contém os scripts desenvolvidos com o objetivo de realizar uma comparação entre os bancos de dados Firebase Firestore e MongoDB Atlas para um artigo de conclusão de curso de Ciência da Computação da UNIPÊ.
+This repository contains the codes developed for a Computer Science course completion article at UNIPÊ, with the goal of comparing the performance of the Firebase Firestore and MongoDB Atlas DBMS.
 
-🛠 Tecnologias
+## Requirements
 
-    Python 3.10+
-    Dependências:
-        firebase-admin
-        pymongo
-        requests
-        datetime
+Python 3.10+
 
-🚀 Como Usar
-Instale as dependências:
+### Dependencies
 
-    pip install firebase-admin pymongo requests
+firebase-admin  
+pymongo  
+requests  
+datetime
 
-Configure os bancos de dados:
+## Usage
 
-Firebase: Adicione o arquivo de credenciais JSON do Firebase na raiz do projeto.
-MongoDB: Insira a string de conexão do MongoDB Atlas no código.
+1. Clone this repository.  
+2. Switch to one of the branches (`firebase-firestore` or `mongodb-atlas`).  
+3. Install the dependencies:
 
-Execute o script:
+        pip install firebase-admin pymongo requests
 
-    python main.py
+4. Configure the databases:
 
-📋 Funcionalidades
+- **Firebase Firestore**: Add the Firebase credentials JSON file to the root directory of the project.  
+- **MongoDB Atlas**: Insert the MongoDB Atlas connection string into the code.
 
-Insere, lê, atualiza e exclui dados no Firebase Firestore e MongoDB Atlas.
-Registra o tempo de execução das operações para comparação.
+5. Run the script:
 
-📝 Licença
+        python main.py
 
-Este projeto está sob a licença MIT.
+## Functionalities
+
+Inserts, reads, updates, and deletes data in Firebase Firestore and MongoDB Atlas.
+
+### Exploratory functionalities:
+
+- **MongoDB Atlas**: Counts the number of projects by area and adds the result to a new field in the database.  
+- **Firebase Firestore**: Counts the number of participants who are or have been involved in projects within a specific time period and inserts an additional field with the result into the database.
+
+## Project Structure
+
+This repository is divided into two branches: `firebase-firestore`, containing the code developed for tests in Firebase Firestore, and `mongodb-atlas`, which contains the code developed for tests in MongoDB Atlas.
+
+The codes are structured simply.
